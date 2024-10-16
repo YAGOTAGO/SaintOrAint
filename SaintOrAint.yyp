@@ -49,7 +49,7 @@
     {"id":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},},
     {"id":{"name":"ob_job_db","path":"objects/ob_job_db/ob_job_db.yy",},},
     {"id":{"name":"ob_paper","path":"objects/ob_paper/ob_paper.yy",},},
-    {"id":{"name":"ob_people_sprites_db","path":"objects/ob_people_sprites_db/ob_people_sprites_db.yy",},},
+    {"id":{"name":"ob_sprites_db","path":"objects/ob_sprites_db/ob_sprites_db.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
