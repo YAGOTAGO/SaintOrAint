@@ -10,6 +10,7 @@
     {"name":"inst_43A82F5D","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_21F29558","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_472A7C12","path":"rooms/rm_gameplay/rm_gameplay.yy",},
+    {"name":"inst_2D99E287","path":"rooms/rm_gameplay/rm_gameplay.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,6 +19,7 @@
         {"$GMRInstance":"v1","%Name":"inst_43A82F5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43A82F5D","objectId":{"name":"ob_button_aint","path":"objects/ob_button_aint/ob_button_aint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":2.0,"x":352.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_21F29558","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21F29558","objectId":{"name":"ob_paper","path":"objects/ob_paper/ob_paper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"inst_472A7C12","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_472A7C12","objectId":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2D99E287","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D99E287","objectId":{"name":"ob_person","path":"objects/ob_person/ob_person.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Sprites","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_410363F1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_410363F1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sp_desk","path":"sprites/sp_desk/sp_desk.yy",},"x":640.0,"y":512.0,},
