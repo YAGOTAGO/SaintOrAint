@@ -13,8 +13,8 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"a6706cb7-4d9c-4604-be43-bd9c86588036","name":"a6706cb7-4d9c-4604-be43-bd9c86588036","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"87fcdcf7-1f5b-49b3-aa18-03e16156797f","name":"87fcdcf7-1f5b-49b3-aa18-03e16156797f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ff05ba3a-e3e3-4b88-ba47-462d2ff3eecb","name":"ff05ba3a-e3e3-4b88-ba47-462d2ff3eecb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cfdbd41f-a67c-4eba-a165-e9576ccf54cc","name":"cfdbd41f-a67c-4eba-a165-e9576ccf54cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"82192887-6eb2-407f-bc27-4756f8cbd0ca","name":"82192887-6eb2-407f-bc27-4756f8cbd0ca","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -93,11 +93,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6706cb7-4d9c-4604-be43-bd9c86588036","path":"sprites/sp_button_exit/sp_button_exit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"17d534cc-691d-4742-a7ce-c47ae7392cee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87fcdcf7-1f5b-49b3-aa18-03e16156797f","path":"sprites/sp_button_exit/sp_button_exit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b7674da7-6abe-425c-acce-233a22a72c5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfdbd41f-a67c-4eba-a165-e9576ccf54cc","path":"sprites/sp_button_exit/sp_button_exit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e53d4db0-8750-4536-bca3-10888473293c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff05ba3a-e3e3-4b88-ba47-462d2ff3eecb","path":"sprites/sp_button_exit/sp_button_exit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"79cf27a1-f805-447e-967e-8bdd66b7fc82","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82192887-6eb2-407f-bc27-4756f8cbd0ca","path":"sprites/sp_button_exit/sp_button_exit.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9e0748b1-e4b2-4fdb-9c16-98d5117a7399","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
