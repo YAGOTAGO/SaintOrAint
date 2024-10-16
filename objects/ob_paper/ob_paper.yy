@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"ob_database",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"ob_paper",
+  "eventList":[],
   "managed":true,
-  "name":"ob_database",
+  "name":"ob_paper",
   "overriddenProperties":[],
   "parent":{
-    "name":"Databases",
-    "path":"folders/Objects/Databases.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_paper",
+    "path":"sprites/sp_paper/sp_paper.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

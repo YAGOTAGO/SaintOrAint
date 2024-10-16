@@ -8,12 +8,14 @@
   "instanceCreationOrder":[
     {"name":"inst_69B2703F","path":"rooms/rm_gameplay/rm_gameplay.yy",},
     {"name":"inst_43A82F5D","path":"rooms/rm_gameplay/rm_gameplay.yy",},
+    {"name":"inst_21F29558","path":"rooms/rm_gameplay/rm_gameplay.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_69B2703F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69B2703F","objectId":{"name":"ob_button_saint","path":"objects/ob_button_saint/ob_button_saint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":2.0,"x":160.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_43A82F5D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43A82F5D","objectId":{"name":"ob_button_aint","path":"objects/ob_button_aint/ob_button_aint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6,"scaleY":2.0,"x":352.0,"y":384.0,},
+        {"$GMRInstance":"v1","%Name":"inst_21F29558","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21F29558","objectId":{"name":"ob_paper","path":"objects/ob_paper/ob_paper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Sprites","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_410363F1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_410363F1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sp_desk","path":"sprites/sp_desk/sp_desk.yy",},"x":640.0,"y":512.0,},
