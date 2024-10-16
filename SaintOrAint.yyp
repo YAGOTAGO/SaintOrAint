@@ -54,6 +54,7 @@
     {"id":{"name":"sp_button_start","path":"sprites/sp_button_start/sp_button_start.yy",},},
     {"id":{"name":"sp_default","path":"sprites/sp_default/sp_default.yy",},},
     {"id":{"name":"sp_desk","path":"sprites/sp_desk/sp_desk.yy",},},
+    {"id":{"name":"sp_heaven_gates","path":"sprites/sp_heaven_gates/sp_heaven_gates.yy",},},
     {"id":{"name":"sp_title","path":"sprites/sp_title/sp_title.yy",},},
   ],
   "resourceType":"GMProject",
