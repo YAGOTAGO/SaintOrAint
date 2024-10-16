@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_button_start",
-    "path":"sprites/sp_button_start/sp_button_start.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -7,7 +7,7 @@
   "managed":true,
   "name":"ob_button_exit",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_button_parent","path":"objects/ob_button_parent/ob_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/ob_button_parent/ob_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Exit",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_button_parent","path":"objects/ob_button_parent/ob_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/ob_button_parent/ob_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
   ],
   "parent":{
     "name":"Buttons",
