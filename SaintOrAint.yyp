@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +34,20 @@
   },
   "name":"SaintOrAint",
   "resources":[
+    {"id":{"name":"ob_fullscreen","path":"objects/ob_fullscreen/ob_fullscreen.yy",},},
+    {"id":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},},
+    {"id":{"name":"ob_person","path":"objects/ob_person/ob_person.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"id":{"name":"sp_default","path":"sprites/sp_default/sp_default.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"roomId":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
