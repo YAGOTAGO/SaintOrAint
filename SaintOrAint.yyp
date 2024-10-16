@@ -47,6 +47,7 @@
     {"id":{"name":"ob_button_start","path":"objects/ob_button_start/ob_button_start.yy",},},
     {"id":{"name":"ob_fullscreen","path":"objects/ob_fullscreen/ob_fullscreen.yy",},},
     {"id":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},},
+    {"id":{"name":"ob_job_db","path":"objects/ob_job_db/ob_job_db.yy",},},
     {"id":{"name":"ob_paper","path":"objects/ob_paper/ob_paper.yy",},},
     {"id":{"name":"ob_people_sprites_db","path":"objects/ob_people_sprites_db/ob_people_sprites_db.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
