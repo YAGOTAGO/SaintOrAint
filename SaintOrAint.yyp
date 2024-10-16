@@ -34,6 +34,7 @@
   },
   "name":"SaintOrAint",
   "resources":[
+    {"id":{"name":"ob_database","path":"objects/ob_database/ob_database.yy",},},
     {"id":{"name":"ob_fullscreen","path":"objects/ob_fullscreen/ob_fullscreen.yy",},},
     {"id":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},},
     {"id":{"name":"ob_person","path":"objects/ob_person/ob_person.yy",},},
