@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_sprite_db",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"sc_sprite_db",
+  "parent":{
+    "name":"Databases",
+    "path":"folders/Scripts/Databases.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

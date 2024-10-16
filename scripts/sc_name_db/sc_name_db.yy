@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_name_db",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"sc_name_db",
+  "parent":{
+    "name":"Databases",
+    "path":"folders/Scripts/Databases.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

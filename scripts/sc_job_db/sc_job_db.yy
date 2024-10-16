@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_job_db",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"sc_job_db",
+  "parent":{
+    "name":"Databases",
+    "path":"folders/Scripts/Databases.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

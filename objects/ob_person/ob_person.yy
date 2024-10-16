@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"ob_sprites_db",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"ob_person",
+  "eventList":[],
   "managed":true,
-  "name":"ob_sprites_db",
+  "name":"ob_person",
   "overriddenProperties":[],
   "parent":{
-    "name":"Databases",
-    "path":"folders/Objects/Databases.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
