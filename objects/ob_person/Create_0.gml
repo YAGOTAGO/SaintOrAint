@@ -11,7 +11,7 @@ enum TYPE {
 }
 
 person_info = {
-	sprite: sp_default,
+	sprite: sp_p001,
 	name: "place holder name",
 	description: "description here",
 	outcome: TYPE.GOOD

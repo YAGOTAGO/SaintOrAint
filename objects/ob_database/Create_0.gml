@@ -10,7 +10,7 @@ person_db = ds_map_create();
 //Example
 
 ds_map_add(person_db, "Mario",{
-	sprite: sp_default,
+	sprite: sp_p001,
     name: "John Doe",
     description: "A heroic character in the story.",
     outcome: TYPE.GOOD
