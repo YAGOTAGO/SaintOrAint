@@ -9,8 +9,8 @@
   "name":"ob_fullscreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Handlers",
+    "path":"folders/Objects/Handlers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

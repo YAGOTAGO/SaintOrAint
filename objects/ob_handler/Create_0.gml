@@ -29,3 +29,17 @@ function generate_person(){
 }
 
 generate_person()
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7B4DB21E
+/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){$(13_10)	show_debug_message(score);$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	show_debug_message(score);$(13_10)}"
+/// @description Buttons Pressed
+
+function saint_pressed(){
+	show_debug_message(score);
+}
+
+function aint_pressed(){
+	show_debug_message(score);
+}
