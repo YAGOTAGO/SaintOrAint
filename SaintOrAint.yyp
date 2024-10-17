@@ -51,6 +51,7 @@
     {"id":{"name":"ob_handler","path":"objects/ob_handler/ob_handler.yy",},},
     {"id":{"name":"ob_paper","path":"objects/ob_paper/ob_paper.yy",},},
     {"id":{"name":"ob_person","path":"objects/ob_person/ob_person.yy",},},
+    {"id":{"name":"ob_score_display","path":"objects/ob_score_display/ob_score_display.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
