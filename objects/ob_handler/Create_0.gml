@@ -49,13 +49,24 @@ generate_person()
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7B4DB21E
-/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){$(13_10)	show_debug_message(person_score);$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	show_debug_message(person_score);$(13_10)}"
+/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){	$(13_10)	//if negative score lose points$(13_10)	//if positive score gain points$(13_10)	$(13_10)	//amount of point gain/loss is based on a function$(13_10)	$(13_10)	//generate a new person$(13_10)	$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	//if negative score lose points$(13_10)	//if positive score gain points$(13_10)	$(13_10)	//amount of point gain/loss is based on a function$(13_10)	$(13_10)	//generate a new person$(13_10)}"
 /// @description Buttons Pressed
 
-function saint_pressed(){
-	show_debug_message(person_score);
+function saint_pressed(){	
+	//if negative score lose points
+	//if positive score gain points
+	
+	//amount of point gain/loss is based on a function
+	
+	//generate a new person
+	
 }
 
 function aint_pressed(){
-	show_debug_message(person_score);
+	//if negative score lose points
+	//if positive score gain points
+	
+	//amount of point gain/loss is based on a function
+	
+	//generate a new person
 }
