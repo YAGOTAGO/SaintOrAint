@@ -34,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sp_button_saint",
+    "path":"sprites/sp_button_saint/sp_button_saint.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
