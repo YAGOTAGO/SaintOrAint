@@ -58,8 +58,8 @@
     {"id":{"name":"ob_textbox_intro","path":"objects/ob_textbox_intro/ob_textbox_intro.yy",},},
     {"id":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},},
     {"id":{"name":"ob_timer","path":"objects/ob_timer/ob_timer.yy",},},
-    {"id":{"name":"rm_dialog","path":"rooms/rm_dialog/rm_dialog.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_intro_dialog","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},},
     {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"sc_best_moment_db","path":"scripts/sc_best_moment_db/sc_best_moment_db.yy",},},
@@ -90,7 +90,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"roomId":{"name":"rm_dialog","path":"rooms/rm_dialog/rm_dialog.yy",},},
+    {"roomId":{"name":"rm_intro_dialog","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},},
     {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"roomId":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
   ],

@@ -1,13 +1,13 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_dialog",
+  "%Name":"rm_intro_dialog",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_698FE397","path":"rooms/rm_dialog/rm_dialog.yy",},
-    {"name":"inst_337654C4","path":"rooms/rm_dialog/rm_dialog.yy",},
+    {"name":"inst_698FE397","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},
+    {"name":"inst_337654C4","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,7 +17,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":0.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sp_background_dialog","path":"sprites/sp_background_dialog/sp_background_dialog.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_dialog",
+  "name":"rm_intro_dialog",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
