@@ -57,7 +57,7 @@ generate_person()
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7B4DB21E
-/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){	$(13_10)	$(13_10)	//update score$(13_10)	adjust_score(true);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	//update score$(13_10)	adjust_score(false);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function adjust_score(isSaint) {$(13_10)    var isNegative = person_score > 0 ? false : true;$(13_10)	var val = abs(person_score);$(13_10)	$(13_10)	if (val == 0) {$(13_10)        overall_score += isSaint ? 100 : 50; // 100 for saint, 50 for aint$(13_10)    } else if (val <= 3) {$(13_10)         overall_score += isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);$(13_10)    } else if (val <= 6) {$(13_10)         overall_score += isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);$(13_10)    } else {$(13_10)         overall_score += isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);$(13_10)    }$(13_10)}"
+/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){	$(13_10)	$(13_10)	//update score$(13_10)	adjust_score(true);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	//update score$(13_10)	var gained = adjust_score(false);$(13_10)	$(13_10)	ob_animated_text.display_text(gained, ob_button_aint.x, ob_button_aint.y);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function adjust_score(isSaint) {$(13_10)    var isNegative = person_score > 0 ? false : true;$(13_10)	var val = abs(person_score);$(13_10)	var gain = 0;$(13_10)	$(13_10)	if (val == 0) {$(13_10)		gain = isSaint ? 100 : 50; // 100 for saint, 50 for aint$(13_10)        overall_score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 3) {$(13_10)		gain = isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);$(13_10)        overall_score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 6) {$(13_10)		gain = isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);$(13_10)        overall_score += gain;$(13_10)		return gain;$(13_10)    } else {$(13_10)		gain = isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);$(13_10)        overall_score += gain;$(13_10)		return gain;$(13_10)    }$(13_10)}"
 /// @description Buttons Pressed
 
 function saint_pressed(){	
@@ -71,7 +71,9 @@ function saint_pressed(){
 
 function aint_pressed(){
 	//update score
-	adjust_score(false);
+	var gained = adjust_score(false);
+	
+	ob_animated_text.display_text(gained, ob_button_aint.x, ob_button_aint.y);
 	
 	//generate a new person
 	generate_person();
@@ -80,14 +82,23 @@ function aint_pressed(){
 function adjust_score(isSaint) {
     var isNegative = person_score > 0 ? false : true;
 	var val = abs(person_score);
+	var gain = 0;
 	
 	if (val == 0) {
-        overall_score += isSaint ? 100 : 50; // 100 for saint, 50 for aint
+		gain = isSaint ? 100 : 50; // 100 for saint, 50 for aint
+        overall_score += gain;
+		return gain;
     } else if (val <= 3) {
-         overall_score += isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);
+		gain = isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);
+        overall_score += gain;
+		return gain;
     } else if (val <= 6) {
-         overall_score += isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);
+		gain = isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);
+        overall_score += gain;
+		return gain;
     } else {
-         overall_score += isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);
+		gain = isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);
+        overall_score += gain;
+		return gain;
     }
 }

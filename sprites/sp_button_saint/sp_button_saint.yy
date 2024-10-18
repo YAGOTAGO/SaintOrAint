@@ -23,7 +23,7 @@
   ],
   "name":"sp_button_saint",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Buttons",
     "path":"folders/Sprites/Buttons.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":125,
     "yorigin":0,
   },
   "swatchColours":null,
