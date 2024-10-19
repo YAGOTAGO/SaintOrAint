@@ -1,13 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 47DEA9EA
-/// @DnDArgument : "code" "/// @description Vars$(13_10)$(13_10)is_visible = false;$(13_10)text = "default";$(13_10)alarm_time =  1 * game_get_speed(gamespeed_fps);$(13_10)alarm[0] = alarm_time; //seconds * fps$(13_10)$(13_10)//move vars$(13_10)move_speed = 2;"
+/// @DnDArgument : "code" "/// @description Vars$(13_10)$(13_10)is_visible = false;$(13_10)text = "default";$(13_10)alarm_time =  1 * game_get_speed(gamespeed_fps);//seconds * fps$(13_10)alarm[0] = alarm_time; $(13_10)$(13_10)//move vars$(13_10)move_speed = 2;"
 /// @description Vars
 
 is_visible = false;
 text = "default";
-alarm_time =  1 * game_get_speed(gamespeed_fps);
-alarm[0] = alarm_time; //seconds * fps
+alarm_time =  1 * game_get_speed(gamespeed_fps);//seconds * fps
+alarm[0] = alarm_time; 
 
 //move vars
 move_speed = 2;
