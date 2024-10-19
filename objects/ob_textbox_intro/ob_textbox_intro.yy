@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_textbox",
-    "path":"sprites/sp_textbox/sp_textbox.yy",
+    "name":"sp_dialog_textbox",
+    "path":"sprites/sp_dialog_textbox/sp_dialog_textbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
