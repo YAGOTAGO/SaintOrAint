@@ -79,6 +79,7 @@
     {"id":{"name":"sc_people_dialog_db","path":"scripts/sc_people_dialog_db/sc_people_dialog_db.yy",},},
     {"id":{"name":"sc_sprite_db","path":"scripts/sc_sprite_db/sc_sprite_db.yy",},},
     {"id":{"name":"sc_stats","path":"scripts/sc_stats/sc_stats.yy",},},
+    {"id":{"name":"sp_background_clouds","path":"sprites/sp_background_clouds/sp_background_clouds.yy",},},
     {"id":{"name":"sp_background_dialog","path":"sprites/sp_background_dialog/sp_background_dialog.yy",},},
     {"id":{"name":"sp_background_start","path":"sprites/sp_background_start/sp_background_start.yy",},},
     {"id":{"name":"sp_button_aint","path":"sprites/sp_button_aint/sp_button_aint.yy",},},
