@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_clouds_texbox",
-    "path":"sprites/sp_clouds_texbox/sp_clouds_texbox.yy",
+    "name":"sp_clouds_textbox",
+    "path":"sprites/sp_clouds_textbox/sp_clouds_textbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
