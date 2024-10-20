@@ -3,10 +3,16 @@
   "%Name":"ob_textbox_intro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ob_textbox_intro",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"propertyId":{"name":"xBuffer","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"430",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"propertyId":{"name":"yBuffer","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"290",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"propertyId":{"name":"boxHeight","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"135",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"propertyId":{"name":"boxWidth","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"420",},
+  ],
   "parent":{
     "name":"Textbox",
     "path":"folders/Objects/Textbox.yy",
@@ -33,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_dialog_textbox",
-    "path":"sprites/sp_dialog_textbox/sp_dialog_textbox.yy",
+    "name":"sp_clouds_texbox",
+    "path":"sprites/sp_clouds_texbox/sp_clouds_texbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

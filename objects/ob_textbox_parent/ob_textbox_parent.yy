@@ -30,6 +30,10 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"dialog","filters":[],"listItems":[],"multiselect":false,"name":"dialog","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"global.intro_dialog","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"text","filters":[],"listItems":[],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"get_dialog_as_array(dialog)","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"xBuffer","filters":[],"listItems":[],"multiselect":false,"name":"xBuffer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"yBuffer","filters":[],"listItems":[],"multiselect":false,"name":"yBuffer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"boxHeight","filters":[],"listItems":[],"multiselect":false,"name":"boxHeight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_height(sp_dialog_textbox)","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"boxWidth","filters":[],"listItems":[],"multiselect":false,"name":"boxWidth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_get_width(sp_dialog_textbox)","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
