@@ -62,6 +62,7 @@
     {"id":{"name":"ob_people_textbox","path":"objects/ob_people_textbox/ob_people_textbox.yy",},},
     {"id":{"name":"ob_person","path":"objects/ob_person/ob_person.yy",},},
     {"id":{"name":"ob_score_display","path":"objects/ob_score_display/ob_score_display.yy",},},
+    {"id":{"name":"ob_stats_display","path":"objects/ob_stats_display/ob_stats_display.yy",},},
     {"id":{"name":"ob_textbox_intro","path":"objects/ob_textbox_intro/ob_textbox_intro.yy",},},
     {"id":{"name":"ob_textbox_parent","path":"objects/ob_textbox_parent/ob_textbox_parent.yy",},},
     {"id":{"name":"ob_timer_display","path":"objects/ob_timer_display/ob_timer_display.yy",},},
