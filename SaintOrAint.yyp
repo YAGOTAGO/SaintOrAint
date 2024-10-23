@@ -70,7 +70,6 @@
     {"id":{"name":"rm_intro_dialog","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},},
     {"id":{"name":"rm_score","path":"rooms/rm_score/rm_score.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
-    {"id":{"name":"sc_best_moment_db","path":"scripts/sc_best_moment_db/sc_best_moment_db.yy",},},
     {"id":{"name":"sc_death_db","path":"scripts/sc_death_db/sc_death_db.yy",},},
     {"id":{"name":"sc_dialog","path":"scripts/sc_dialog/sc_dialog.yy",},},
     {"id":{"name":"sc_funfact_db","path":"scripts/sc_funfact_db/sc_funfact_db.yy",},},
