@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sp_paper",
-    "path":"sprites/sp_paper/sp_paper.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
