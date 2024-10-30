@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_sprite_db",
+  "%Name":"sc_person_db",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"sc_sprite_db",
+  "name":"sc_person_db",
   "parent":{
     "name":"Databases",
     "path":"folders/Scripts/Databases.yy",
