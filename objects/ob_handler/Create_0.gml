@@ -53,7 +53,7 @@ generate_person()
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7B4DB21E
-/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){	$(13_10)	$(13_10)	//update score$(13_10)	var gained = adjust_score(true);$(13_10)	$(13_10)	//update bad people sent to heaven$(13_10)	if(gained < 0){$(13_10)		global.bad_people_sent_to_heaven++;$(13_10)		show_debug_message("bad heaven: " + string(global.bad_people_sent_to_heaven));$(13_10)	}$(13_10)	$(13_10)	//update total people$(13_10)	global.total_people++;$(13_10)	$(13_10)	//draw anim text over button$(13_10)	ob_animated_text.display_text(gained, ob_button_saint.x, ob_button_saint.y);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	//update score$(13_10)	var gained = adjust_score(false);$(13_10)	$(13_10)	//good people sent to hell$(13_10)	if(gained < 0){$(13_10)		global.good_people_sent_to_hell++;$(13_10)		show_debug_message("good hell: " + string(global.good_people_sent_to_hell));$(13_10)	}$(13_10)	$(13_10)	//update total people$(13_10)	global.total_people++;$(13_10)	$(13_10)	//draw anim text over button$(13_10)	ob_animated_text.display_text(gained, ob_button_aint.x, ob_button_aint.y);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function adjust_score(isSaint) {$(13_10)    var isNegative = person_score > 0 ? false : true;$(13_10)	var val = abs(person_score);$(13_10)	var gain = 0;$(13_10)	$(13_10)	if (val == 0) {$(13_10)		gain = isSaint ? 100 : 50; // 100 for saint, 50 for aint$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 3) {$(13_10)		gain = isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 6) {$(13_10)		gain = isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else {$(13_10)		gain = isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    }$(13_10)}"
+/// @DnDArgument : "code" "/// @description Buttons Pressed$(13_10)$(13_10)function saint_pressed(){	$(13_10)	$(13_10)	//update score$(13_10)	var gained = adjust_score(true);$(13_10)	$(13_10)	//update bad people sent to heaven$(13_10)	if(gained < 0){$(13_10)		global.bad_people_sent_to_heaven++;$(13_10)	}$(13_10)	$(13_10)	//update total people$(13_10)	global.total_people++;$(13_10)	$(13_10)	//draw anim text over button$(13_10)	ob_animated_text.display_text(gained, ob_button_saint.x, ob_button_saint.y);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function aint_pressed(){$(13_10)	//update score$(13_10)	var gained = adjust_score(false);$(13_10)	$(13_10)	//good people sent to hell$(13_10)	if(gained < 0){$(13_10)		global.good_people_sent_to_hell++;$(13_10)	}$(13_10)	$(13_10)	//update total people$(13_10)	global.total_people++;$(13_10)	$(13_10)	//draw anim text over button$(13_10)	ob_animated_text.display_text(gained, ob_button_aint.x, ob_button_aint.y);$(13_10)	$(13_10)	//generate a new person$(13_10)	generate_person();$(13_10)}$(13_10)$(13_10)function adjust_score(isSaint) {$(13_10)    var isNegative = person_score > 0 ? false : true;$(13_10)	var val = abs(person_score);$(13_10)	var gain = 0;$(13_10)	$(13_10)	if (val == 0) {$(13_10)		gain = isSaint ? 100 : 50; // 100 for saint, 50 for aint$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 3) {$(13_10)		gain = isNegative ? (isSaint ? -50 : 200) : (isSaint ? 200 : -50);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else if (val <= 6) {$(13_10)		gain = isNegative ? (isSaint ? -200 : 50) : (isSaint ? 50 : -200);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    } else {$(13_10)		gain = isNegative ? (isSaint ? -400 : 50) : (isSaint ? 50 : -400);$(13_10)        score += gain;$(13_10)		return gain;$(13_10)    }$(13_10)}"
 /// @description Buttons Pressed
 
 function saint_pressed(){	
@@ -64,7 +64,6 @@ function saint_pressed(){
 	//update bad people sent to heaven
 	if(gained < 0){
 		global.bad_people_sent_to_heaven++;
-		show_debug_message("bad heaven: " + string(global.bad_people_sent_to_heaven));
 	}
 	
 	//update total people
@@ -84,7 +83,6 @@ function aint_pressed(){
 	//good people sent to hell
 	if(gained < 0){
 		global.good_people_sent_to_hell++;
-		show_debug_message("good hell: " + string(global.good_people_sent_to_hell));
 	}
 	
 	//update total people
