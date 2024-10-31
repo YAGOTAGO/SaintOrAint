@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_transition",
-    "path":"sprites/sp_transition/sp_transition.yy",
+    "name":"sp_transition_clouds",
+    "path":"sprites/sp_transition_clouds/sp_transition_clouds.yy",
   },
   "spriteMaskId":null,
   "visible":true,

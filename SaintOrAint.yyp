@@ -127,6 +127,7 @@
     {"id":{"name":"sp_skin004","path":"sprites/sp_skin004/sp_skin004.yy",},},
     {"id":{"name":"sp_skin005","path":"sprites/sp_skin005/sp_skin005.yy",},},
     {"id":{"name":"sp_sweater","path":"sprites/sp_sweater/sp_sweater.yy",},},
+    {"id":{"name":"sp_transition_clouds","path":"sprites/sp_transition_clouds/sp_transition_clouds.yy",},},
     {"id":{"name":"sp_transition","path":"sprites/sp_transition/sp_transition.yy",},},
   ],
   "resourceType":"GMProject",
