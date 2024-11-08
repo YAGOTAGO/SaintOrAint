@@ -52,6 +52,7 @@
     {"id":{"name":"fn_display","path":"fonts/fn_display/fn_display.yy",},},
     {"id":{"name":"fn_paper_text","path":"fonts/fn_paper_text/fn_paper_text.yy",},},
     {"id":{"name":"fn_people_textbox","path":"fonts/fn_people_textbox/fn_people_textbox.yy",},},
+    {"id":{"name":"fn_stats","path":"fonts/fn_stats/fn_stats.yy",},},
     {"id":{"name":"fn_textbox","path":"fonts/fn_textbox/fn_textbox.yy",},},
     {"id":{"name":"ob_animated_text","path":"objects/ob_animated_text/ob_animated_text.yy",},},
     {"id":{"name":"ob_button_aint","path":"objects/ob_button_aint/ob_button_aint.yy",},},

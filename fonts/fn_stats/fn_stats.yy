@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fn_people_textbox",
+  "%Name":"fn_stats",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":20,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":29,
   "maintainGms1Font":false,
-  "name":"fn_people_textbox",
+  "name":"fn_stats",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
