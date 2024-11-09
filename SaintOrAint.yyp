@@ -76,6 +76,7 @@
     {"id":{"name":"ob_transition","path":"objects/ob_transition/ob_transition.yy",},},
     {"id":{"name":"FireParticles_2","path":"particles/FireParticles_2/FireParticles_2.yy",},},
     {"id":{"name":"FireParticles","path":"particles/FireParticles/FireParticles.yy",},},
+    {"id":{"name":"SparkleDown","path":"particles/SparkleDown/SparkleDown.yy",},},
     {"id":{"name":"SparkleParticles","path":"particles/SparkleParticles/SparkleParticles.yy",},},
     {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
     {"id":{"name":"rm_intro_dialog","path":"rooms/rm_intro_dialog/rm_intro_dialog.yy",},},
