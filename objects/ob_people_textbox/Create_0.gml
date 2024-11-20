@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 5F9FD629
-/// @DnDArgument : "code" "/// @description Vars$(13_10)$(13_10)text = "default";$(13_10)isVisible = false;$(13_10)game_speed = game_get_speed(gamespeed_fps);$(13_10)$(13_10)//timer for interval between text in seconds$(13_10)min_interval = 5;$(13_10)max_interval = 10;$(13_10)textbox_duration = 6; //in seconds$(13_10)$(13_10)//set this alarm to set object visible$(13_10)alarm[1] = irandom_range(min_interval, max_interval) * game_speed;$(13_10)$(13_10)//textbox dimensions$(13_10)draw_set_font(fn_people_textbox);$(13_10)boxWidth = sprite_get_width(sp_people_textbox);$(13_10)xBuffer = 30;$(13_10)yBuffer = 25;$(13_10)stringHeight = string_height(text);"
+/// @DnDArgument : "code" "/// @description Vars$(13_10)$(13_10)text = "default";$(13_10)isVisible = false;$(13_10)game_speed = game_get_speed(gamespeed_fps);$(13_10)$(13_10)//timer for interval between text in seconds$(13_10)min_interval = 5;$(13_10)max_interval = 8;$(13_10)textbox_duration = 6; //in seconds$(13_10)$(13_10)//set this alarm to set object visible$(13_10)alarm[1] = irandom_range(min_interval, max_interval) * game_speed;$(13_10)$(13_10)//textbox dimensions$(13_10)draw_set_font(fn_people_textbox);$(13_10)boxWidth = sprite_get_width(sp_people_textbox);$(13_10)xBuffer = 30;$(13_10)yBuffer = 25;$(13_10)stringHeight = string_height(text);"
 /// @description Vars
 
 text = "default";
@@ -10,7 +10,7 @@ game_speed = game_get_speed(gamespeed_fps);
 
 //timer for interval between text in seconds
 min_interval = 5;
-max_interval = 10;
+max_interval = 8;
 textbox_duration = 6; //in seconds
 
 //set this alarm to set object visible
