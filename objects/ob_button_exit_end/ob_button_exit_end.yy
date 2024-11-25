@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_button_end_exit",
-    "path":"sprites/sp_button_end_exit/sp_button_end_exit.yy",
+    "name":"sp_button_exit_end",
+    "path":"sprites/sp_button_exit_end/sp_button_exit_end.yy",
   },
   "spriteMaskId":null,
   "visible":true,
