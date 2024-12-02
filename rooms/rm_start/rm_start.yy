@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_start",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_start/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -11,7 +11,7 @@
     {"name":"inst_24B6CABF","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_3F117973","path":"rooms/rm_start/rm_start.yy",},
   ],
-  "isDnd":false,
+  "isDnd":true,
   "layers":[
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRParticleSystem":"","%Name":"particle_7E624786","colour":4294967295,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"particle_7E624786","particleSystemId":{"name":"prt_fire","path":"particles/prt_fire/prt_fire.yy",},"resourceType":"GMRParticleSystem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":823.0,"y":222.0,},

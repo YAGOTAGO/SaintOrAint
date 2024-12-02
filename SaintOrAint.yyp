@@ -93,6 +93,7 @@
     {"id":{"name":"sc_people_dialog_db","path":"scripts/sc_people_dialog_db/sc_people_dialog_db.yy",},},
     {"id":{"name":"sc_person_db","path":"scripts/sc_person_db/sc_person_db.yy",},},
     {"id":{"name":"sc_stats","path":"scripts/sc_stats/sc_stats.yy",},},
+    {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},},
     {"id":{"name":"sp_ac_001","path":"sprites/sp_ac_001/sp_ac_001.yy",},},
     {"id":{"name":"sp_ac_002","path":"sprites/sp_ac_002/sp_ac_002.yy",},},
